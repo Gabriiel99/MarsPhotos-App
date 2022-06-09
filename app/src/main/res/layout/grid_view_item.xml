@@ -26,5 +26,15 @@
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:padding="2dp"
+        app:imageUrl="@{viewModel.photos.imgSrcUrl}"
         tools:src="@tools:sample/backgrounds/scenic"/>
+    
+    <data>
+        
+        <variable
+            name="viewModel"
+            type="com.example.android.marsphotos.overview.OverviewViewModel" />
+        
+    </data>
+    
 </layout>
